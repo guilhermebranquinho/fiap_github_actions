@@ -26,4 +26,4 @@ jobs:
           zip -r9 lambda.zip lambdaFunction.py
       - name: AWS Deploy
         run: |
-          aws lambda update-function-code --function-name NameOfLambdaFunction --zip-file fileb://lambda.zip
+          aws lambda update-function-code --function-name lambda_rm_nome --zip-file fileb://lambda.zip
